@@ -15,11 +15,12 @@ export default NavBar;
 const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
-  position: fixed;
+  /* position: fixed; */
+  top: 0;
   height: 70px;
   width: 100%;
   background-color: hsl(209, 23%, 22%);
-  padding: 20px 60px 20px 60px;
+  padding: 20px 100px 20px 100px;
 `;
 
 const Header = styled.div`
